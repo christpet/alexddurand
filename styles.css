@@ -291,13 +291,14 @@ p:last-child {
 
 .hero-placeholder {
     width: 280px;
-    height: 350px;
+    height: 300px;
     background: linear-gradient(135deg, var(--green-dark), var(--green-mid));
     border: 1px solid var(--green-light);
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
+    overflow: hidden;
 }
 
 .hero-placeholder span {
@@ -312,7 +313,7 @@ p:last-child {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    object-position: center top;
+    object-position: center center;
 }
 
 .scroll-indicator {
@@ -828,7 +829,7 @@ p:last-child {
     
     .hero-placeholder {
         width: 200px;
-        height: 250px;
+        height: 220px;
     }
     
     .publication-item {
